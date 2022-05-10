@@ -8,7 +8,7 @@ The Android/iOS and Win/Mac/Linux app is available here: [MementoDB](https://mem
 
 The desktop version instead is JAVA based. Here is a screenshot:
 
-![Java](https://gitlab.mpcdf.mpg.de/kewerner/staccioli-doc/-/raw/main/Screenshot_2022-04-27_16-10-55.png)
+![Java](https://github.com/biblhertz/StaccioliDoc/blob/main/Screenshot_FieldDatabase.png)
 
 ## Database Connection
 
