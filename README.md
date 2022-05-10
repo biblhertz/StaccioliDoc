@@ -8,11 +8,9 @@ The Android/iOS and Win/Mac/Linux app is available here: [MementoDB](https://mem
 
 The interface is very efficient and user friendly. Here's a screenshot:
 
-![Java](https://github.com/biblhertz/StaccioliDoc/blob/main/Screenshot_FieldDatabase_Android.png)
+![Java](https://github.com/biblhertz/StaccioliDoc/blob/main/screenshot_FieldDB_Android.png)
 
-The desktop version instead is JAVA based. There are not many differences:
-
-![Java](https://github.com/biblhertz/StaccioliDoc/blob/main/Screenshot_FieldDatabase.png)
+The desktop version instead is JAVA based. There are not many differences.
 
 ## Database Connection
 
