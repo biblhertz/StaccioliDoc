@@ -6,7 +6,11 @@ Documentation for the Mauro Staccioli project. Mostly related to the Field Datab
 
 The Android/iOS and Win/Mac/Linux app is available here: [MementoDB](https://mementodatabase.com/download.html).
 
-The desktop version instead is JAVA based. Here is a screenshot:
+The interface is very efficient and user friendly. Here's a screenshot:
+
+![Java](https://github.com/biblhertz/StaccioliDoc/blob/main/Screenshot_FieldDatabase_Android.png)
+
+The desktop version instead is JAVA based. There are not many differences:
 
 ![Java](https://github.com/biblhertz/StaccioliDoc/blob/main/Screenshot_FieldDatabase.png)
 
