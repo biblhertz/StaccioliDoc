@@ -1,5 +1,7 @@
 # Staccioli Doc
 
+**nota bene** There is another, probably more updated version, on: [GitLab](https://gitlab.mpcdf.mpg.de/kewerner/staccioli-doc) .
+
 Documentation for the Mauro Staccioli project. Mostly related to the Field Database.
 
 ## Database App
