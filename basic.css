@@ -1,10 +1,39 @@
+  .page {
+    background-color: rgb(245,245,245);
+  }
+  .navbar-nav {
+    background-color: gray;
+    color: rgb(240,240,240)
+  }
+  .navbar-default, .navbar-inverse, .metaphacts-header-navbar.bg-primary {
+  background-color: rgb(245,245,245) !important;
+}
   .form-group {
    visibility: hidden;
    display: none;
   }
-h1 {
-  text-shadow: 2px 3px 3px rgba(0,0,0,0.57);
-  font-size: 3.5em;
+  h1 {
+    text-shadow: 2px 3px 3px rgba(0,0,0,0.57);
+    font-size: 3.5em;
+  }
+  .tab-pane {
+    box-shadow: 0px 0px 10px gray;
+    border-top: white;
+    margin-right: 3px;
+    margin-left: 1px;
+  }
+#start-page-tabpane-Local {
+  box-shadow: none;
+  border: none;
+}
+.nav-tabs > .nav-link.active, .nav-tabs > .nav-link.active:focus, .nav-tabs > .nav-link.active:hover {
+background-color: rgb(245,245,245);
+  border-top: solid thin white;
+  border-left: solid thin white;
+  border-right: solid thin white;
+  border-bottom: none;
+  box-shadow: 0px -4px 10px 0px darkgray;
+  margin-bottom: 0px;
 }
   .DataTable--table>thead>tr>th {
     background-color: transparent;
@@ -58,8 +87,6 @@ h1 {
   }
 .SemanticTimeline--timeline {
   position: relative;
-  box-shadow: 0px 0px 10px gray;
-  border-top: white;
 }
   .vis-active {
     box-shadow: none;
@@ -68,7 +95,7 @@ h1 {
     border-top: thin solid white
   }
   .vis-background {
-    background-color: rgb(240,240,240);
+    background-color: rgb(245,245,245);
   }
   .card .header {
     height: 80px;
@@ -180,3 +207,13 @@ div:has(div.vis-active) .fa-expand::before {
   font-weight: 600;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+.navbar-default, .navbar-inverse, .metaphacts-header-navbar.bg-primary {
+  background-color: transparent;
+}
+.navbar-brand {
+  display: none;
+}
+.navbar-name:after {
+  content: "Biblioteca Hertziana - Max Planck Institute for Art History";
+  color: black;
+  font-size: 1.5rem;}
