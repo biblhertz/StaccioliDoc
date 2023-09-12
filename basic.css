@@ -1,8 +1,10 @@
   .form-group {
-   visibility: hidden
+   visibility: hidden;
+   display: none;
   }
 h1 {
   text-shadow: 2px 3px 3px rgba(0,0,0,0.57);
+  font-size: 3.5em;
 }
   .DataTable--table>thead>tr>th {
     background-color: transparent;
