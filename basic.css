@@ -1,5 +1,5 @@
 .form-group {
-  visibility: none
+  visibility: hidden
 }
 
 .DataTable--table>thead>tr>th {
