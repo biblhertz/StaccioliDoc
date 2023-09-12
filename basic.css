@@ -1,3 +1,178 @@
 .form-group {
   visibility: none
 }
+
+  .DataTable--table>thead>tr>th {
+    background-color: transparent;
+  }
+  p.match b {
+    color: #dc8a4b;
+    font-weight: normal;
+  }
+
+  p.match b:after {
+    content: " ";
+  }
+
+  .searchinput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .searchinput i {
+    position: relative;
+    left: 12px;
+  }
+  .searchinput .input {
+    flex: 1;
+    margin-left: -12px;
+    box-shadow: 0px 0px 2px #4a9eba;
+    border-color: #4a9eba;
+  }
+  .searchinput input {
+    padding-left: 28px;
+  }
+  .searchinput .form-group {
+    margin-bottom: 0;
+  }
+
+  .nav {
+    flex-direction: row;
+  }
+  .vis-item {
+    border-width: 0;
+    border-color: #8ec7e38a;
+    background-color: transparent;
+  }
+  .vis-item.vis-box {
+    border: solid thin gray;
+    box-shadow: 0 0 10px gray;
+    background-color: white;
+    padding: 5px;
+    width: 240px; /*experimental*/
+  }
+.SemanticTimeline--timeline {
+  position: relative;
+  box-shadow: 0px 0px 10px gray;
+  border-top: white;
+}
+  .vis-active {
+    box-shadow: none;
+  }
+  .vis-timeline {
+    border-top: thin solid white
+  }
+  .vis-background {
+    background-color: rgb(240,240,240);
+  }
+  .card .header {
+    height: 80px;
+    white-space: normal;
+    text-align: left;
+    }
+    .vis-item.vis-box.card {
+      height: 140px;
+      margin-top: 10px;
+    }
+  div[data-flex-self] {
+    border: solid thin gray;
+    box-shadow: 0 0 10px gray;
+    padding: 2px;
+    margin-top: 20px;
+    background-color: white;
+  }
+  .panel-body {
+    height: 240px;
+    }
+  .footer-text {
+    position: relative;
+    border: none;
+    height: 40px;
+    margin: 30px 20px 10px 20px;
+    width: 280px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    text-align: left;
+    }
+    .vis-item .vis-item-content {
+  white-space: wordwrap;
+}
+  .img-frame {
+    width: 280px;
+    height: 280px;
+    margin: 20px auto;
+  }
+  .img-inset, .floating {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border: thin solid whitesmoke;
+    border-radius: 6px;
+    filter: grayscale(100%);
+  }
+  div[data-flex-self]:hover .img-inset, div.card:hover img.floating {
+    filter: grayscale(0%);
+  }
+  div[data-flex-layout] {
+  background-color: whitesmoke;
+}
+div[data-flex-layout*="rows"], [data-flex-layout*="columns"] {
+  /* background-color: lightgray; */
+}
+.justify-content-center {
+  background-color: whitesmoke;
+}
+div[data-flex-layout*="rows"], div[data-flex-layout*="columns"] {
+  border-top: thin solid white;
+  padding-top: 10px;
+  /* box-shadow: 0px -5px 10px rgb(200,200,200);
+  margin-top: 10px; */
+}
+img.floating {
+  float: left;
+  padding-right: 10px;
+      width: 60px;
+      height:60px;
+      cover: fill;
+}
+.timespan {
+  text-align: left;
+  font-weight: 500;
+}
+  .card {
+    border: none;
+    font-size: 95%;
+    font-weight: 600;
+  }
+  footer {
+    display: none;
+    visibility: hidden;
+  } 
+  .tab-pane {
+  padding-top: 0rem;
+  margin-bottom: 0;
+  padding-botttom: 20px
+}
+ button.SemanticTimeline--fitButton, .btn-secondary:focus, .btn-secondary.focus {
+  background-color: white;
+  border: thin solid gray;
+    padding: 8px 8px 4px 8px;
+  position: fixed;
+  right: 3em;
+  top: 45%;
+  box-shadow: 0 0 6px gray;
+} 
+.fa-expand::before {
+  content: "▲ SCROLL ▼";  /*"\F065";*/
+  color: #008cba;
+  font-weight: 600;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+div:has(div.vis-active) .fa-expand::before {
+  content: "◀ ZOOM ▶";
+  color: #008cba;
+  font-weight: 600;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
