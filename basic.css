@@ -2,7 +2,7 @@
   visibility: none
 }
 
-  .DataTable--table>thead>tr>th {
+.DataTable--table>thead>tr>th {
     background-color: transparent;
   }
   p.match b {
